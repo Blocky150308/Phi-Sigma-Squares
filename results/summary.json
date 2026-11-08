@@ -1,0 +1,68 @@
+{
+  "status": "PASS_FULL_RANGE",
+  "limit": 500000000,
+  "program_version": "simple-1",
+  "started_utc": "2026-11-08T16:19:07.555462+00:00",
+  "source_sha256": "274c856441b5eb5f9dfc1686c4c6430f0dd24699ebe1dcae9594d6259b6d9c9e",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "system": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "physical_cores": 14,
+  "logical_cores": 20,
+  "ram_bytes": 34070192128,
+  "available_ram_bytes": 20274630656,
+  "second_search_array_bytes": 8000000016,
+  "methods": [
+    "segmented local product",
+    "totient sieve and divisor addition sieve"
+  ],
+  "packages": {
+    "numpy": "2.5.4",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0",
+    "sympy": "1.14.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "psutil": "7.2.2"
+  },
+  "initial_checks_seconds": 1.2563893999904394,
+  "first_search_seconds": 20.37563060002867,
+  "block_size": 5000000,
+  "second_search_seconds": 112.55366510001477,
+  "sympy_check_seconds": 2.445026500034146,
+  "solution_count": 26627,
+  "exception_count": 70,
+  "offending_pairs": 70,
+  "exception_breakdown": [
+    [
+      2,
+      6,
+      65
+    ],
+    [
+      2,
+      10,
+      3
+    ],
+    [
+      3,
+      6,
+      2
+    ]
+  ],
+  "counts": {
+    "1000000": 913,
+    "10000000": 3241,
+    "500000000": 26627
+  },
+  "full_list_agreement": true,
+  "previous_results_agree": true,
+  "sympy_positives_checked": 26627,
+  "complete_small_range_checked": 10000,
+  "sample_size": 10000,
+  "sample_seed": 20261022,
+  "explicit_and_mersenne_checks_passed": true,
+  "exposure_groups": 28,
+  "finished_utc": "2026-11-08T16:21:25.366997+00:00",
+  "total_seconds_before_archiving": 137.81155879993457
+}

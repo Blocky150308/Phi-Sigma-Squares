@@ -1,0 +1,38 @@
+[
+  {
+    "mersenne_exponent": 5,
+    "mersenne_prime": "31",
+    "lucas_lehmer_passed": true,
+    "a": 3,
+    "a_is_prime_power": true,
+    "n": "248",
+    "sqrt_phi_sigma": "240"
+  },
+  {
+    "mersenne_exponent": 17,
+    "mersenne_prime": "131071",
+    "lucas_lehmer_passed": true,
+    "a": 15,
+    "a_is_prime_power": false,
+    "n": "4294934528",
+    "sqrt_phi_sigma": "4294901760"
+  },
+  {
+    "mersenne_exponent": 89,
+    "mersenne_prime": "618970019642690137449562111",
+    "lucas_lehmer_passed": true,
+    "a": 87,
+    "a_is_prime_power": false,
+    "n": "95780971304118053647396689042151819065498660774084608",
+    "sqrt_phi_sigma": "95780971304118053647396688887409314154826126411694080"
+  },
+  {
+    "mersenne_exponent": 107,
+    "mersenne_prime": "162259276829213363391578010288127",
+    "lucas_lehmer_passed": true,
+    "a": 105,
+    "a_is_prime_power": false,
+    "n": "6582018229284824168619876730229361455111736159193471558891864064",
+    "sqrt_phi_sigma": "6582018229284824168619876730229320890292528855852623664389292032"
+  }
+]

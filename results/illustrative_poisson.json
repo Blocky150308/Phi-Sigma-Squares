@@ -1,0 +1,53 @@
+{
+  "note": "I use this only as an illustration. Equal rates and independence are not proved.",
+  "calculations": [
+    {
+      "rate_source": [
+        2,
+        6
+      ],
+      "target": [
+        2,
+        12
+      ],
+      "expected_count": 1.0156224,
+      "poisson_probability_zero": 0.36217694073964746
+    },
+    {
+      "rate_source": [
+        2,
+        6
+      ],
+      "target": [
+        2,
+        14
+      ],
+      "expected_count": 0.25390976,
+      "poisson_probability_zero": 0.7757618036331168
+    },
+    {
+      "rate_source": [
+        2,
+        10
+      ],
+      "target": [
+        2,
+        12
+      ],
+      "expected_count": 0.7499969280047186,
+      "poisson_probability_zero": 0.4723680038510647
+    },
+    {
+      "rate_source": [
+        2,
+        10
+      ],
+      "target": [
+        2,
+        14
+      ],
+      "expected_count": 0.18750230399646106,
+      "poisson_probability_zero": 0.8290272081024463
+    }
+  ]
+}

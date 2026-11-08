@@ -1,0 +1,209 @@
+{
+  "program_version": "2026-10-22-revision-1",
+  "source_sha256": "d4820981b89edbfbee2692f08e0e82bfec4ff8c7129f66153fbcf3e10548ce9f",
+  "started_utc": "2026-10-22T16:32:01.600801+00:00",
+  "arguments": {
+    "limit": 500000000,
+    "block_size": 5000000,
+    "independent_limit": null,
+    "output": "phi_sigma_results"
+  },
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "machine": "AMD64",
+    "logical_cpus": 20,
+    "physical_cpus": 14,
+    "installed_ram_bytes": 34070192128,
+    "package_versions": {
+      "numpy": "2.5.4",
+      "numba": "0.68.0",
+      "llvmlite": "0.50.0",
+      "sympy": "1.14.0",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "psutil": "7.2.2"
+    }
+  },
+  "available_ram_at_start_bytes": 19866767360,
+  "status": "PASS_FULL_RANGE",
+  "initial_checks": {
+    "complete_sympy_range": [
+      1,
+      10000
+    ],
+    "passed": true,
+    "compilation_and_check_seconds": 1.3455004999414086
+  },
+  "primary": {
+    "method": "segmented local-factor product",
+    "limit": 500000000,
+    "block_size": 5000000,
+    "block_count": 100,
+    "reused_blocks": 0,
+    "session_elapsed_seconds": 21.313156999996863,
+    "sum_original_block_compute_seconds": 21.147317299735732,
+    "block_environments_match_current": true,
+    "solution_count": 26627
+  },
+  "independent": {
+    "method": "linear sieve for separate phi and sigma",
+    "limit": 500000000,
+    "full_primary_range": true,
+    "agreement": true,
+    "reused_completed_run": false,
+    "original_compute_seconds": 17.56684869993478,
+    "original_environment": {
+      "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+      "machine": "AMD64",
+      "logical_cpus": 20,
+      "physical_cpus": 14,
+      "installed_ram_bytes": 34070192128,
+      "package_versions": {
+        "numpy": "2.5.4",
+        "numba": "0.68.0",
+        "llvmlite": "0.50.0",
+        "sympy": "1.14.0",
+        "scipy": "1.18.1",
+        "matplotlib": "3.11.2",
+        "psutil": "7.2.2"
+      }
+    },
+    "array_bytes": 9000000024,
+    "solution_count": 26627
+  },
+  "exceptions": {
+    "distinct_solutions": 70,
+    "offending_pairs": 70,
+    "first_solution": 3187917,
+    "breakdown": [
+      {
+        "prime": 2,
+        "exponent": 6,
+        "count": 65
+      },
+      {
+        "prime": 2,
+        "exponent": 10,
+        "count": 3
+      },
+      {
+        "prime": 3,
+        "exponent": 6,
+        "count": 2
+      }
+    ]
+  },
+  "sympy": {
+    "positive_results_checked": 26627,
+    "additional_sample_size": 10000,
+    "additional_sample_seed": 20261022,
+    "passed": true,
+    "positive_and_sample_seconds": 2.3157684000907466
+  },
+  "explicit_examples_passed": true,
+  "comparisons_with_supplied_results": [
+    {
+      "name": "first_twenty",
+      "passed": true
+    },
+    {
+      "name": "C(1000000)",
+      "actual": 913,
+      "expected": 913,
+      "passed": true,
+      "source": "original manuscript"
+    },
+    {
+      "name": "C(10000000)",
+      "actual": 3241,
+      "expected": 3241,
+      "passed": true,
+      "source": "reviewer report"
+    },
+    {
+      "name": "C(500000000)",
+      "actual": 26627,
+      "expected": 26627,
+      "passed": true,
+      "source": "original manuscript"
+    },
+    {
+      "name": "block_1_100000",
+      "actual": 254,
+      "expected": 254,
+      "passed": true
+    },
+    {
+      "name": "block_100001_200000",
+      "actual": 123,
+      "expected": 123,
+      "passed": true
+    },
+    {
+      "name": "block_200001_300000",
+      "actual": 110,
+      "expected": 110,
+      "passed": true
+    },
+    {
+      "name": "block_300001_400000",
+      "actual": 78,
+      "expected": 78,
+      "passed": true
+    },
+    {
+      "name": "block_400001_500000",
+      "actual": 69,
+      "expected": 69,
+      "passed": true
+    },
+    {
+      "name": "block_500001_600000",
+      "actual": 78,
+      "expected": 78,
+      "passed": true
+    },
+    {
+      "name": "block_600001_700000",
+      "actual": 67,
+      "expected": 67,
+      "passed": true
+    },
+    {
+      "name": "block_700001_800000",
+      "actual": 46,
+      "expected": 46,
+      "passed": true
+    },
+    {
+      "name": "block_800001_900000",
+      "actual": 48,
+      "expected": 48,
+      "passed": true
+    },
+    {
+      "name": "block_900001_1000000",
+      "actual": 40,
+      "expected": 40,
+      "passed": true
+    },
+    {
+      "name": "complete_original_exception_list_within_limit",
+      "passed": true,
+      "actual_count": 70,
+      "expected_count": 70,
+      "unexpected": [],
+      "missing": []
+    }
+  ],
+  "exposure_groups": 28,
+  "all_supplied_comparisons_passed": true,
+  "finished_utc": "2026-10-22T16:32:45.783590+00:00",
+  "this_session_elapsed_seconds": 44.17979900003411,
+  "sampled_peak_process_rss_bytes": 8365027328,
+  "peak_memory_measurement": "Process RSS sampled every 0.5 seconds, not an exact maximum"
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "n": 3187917,
+    "factorization": "3^6 * 4373",
+    "phi": 2124792,
+    "sigma": 4780782,
+    "sqrt_phi_sigma": 3187188,
+    "local_factorizations": [
+      {
+        "prime": 3,
+        "exponent": 6,
+        "value": 531198,
+        "factorization": "2 * 3^5 * 1093"
+      },
+      {
+        "prime": 4373,
+        "exponent": 1,
+        "value": 19123128,
+        "factorization": "2^3 * 3^7 * 1093"
+      }
+    ]
+  },
+  {
+    "n": 3488704,
+    "factorization": "2^6 * 19^2 * 151",
+    "phi": 1641600,
+    "sigma": 7354824,
+    "sqrt_phi_sigma": 3474720,
+    "local_factorizations": [
+      {
+        "prime": 2,
+        "exponent": 6,
+        "value": 4064,
+        "factorization": "2^5 * 127"
+      },
+      {
+        "prime": 19,
+        "exponent": 2,
+        "value": 130302,
+        "factorization": "2 * 3^3 * 19 * 127"
+      },
+      {
+        "prime": 151,
+        "exponent": 1,
+        "value": 22800,
+        "factorization": "2^4 * 3 * 5^2 * 19"
+      }
+    ]
+  },
+  {
+    "n": 94764032,
+    "factorization": "2^10 * 11 * 47 * 179",
+    "phi": 41922560,
+    "sigma": 212232960,
+    "sqrt_phi_sigma": 94325760,
+    "local_factorizations": [
+      {
+        "prime": 2,
+        "exponent": 10,
+        "value": 1048064,
+        "factorization": "2^9 * 23 * 89"
+      },
+      {
+        "prime": 11,
+        "exponent": 1,
+        "value": 120,
+        "factorization": "2^3 * 3 * 5"
+      },
+      {
+        "prime": 47,
+        "exponent": 1,
+        "value": 2208,
+        "factorization": "2^5 * 3 * 23"
+      },
+      {
+        "prime": 179,
+        "exponent": 1,
+        "value": 32040,
+        "factorization": "2^3 * 3^2 * 5 * 89"
+      }
+    ]
+  },
+  {
+    "n": 1510129664,
+    "factorization": "2^14 * 61 * 1511",
+    "phi": 742195200,
+    "sigma": 3071709648,
+    "sqrt_phi_sigma": 1509903360,
+    "local_factorizations": [
+      {
+        "prime": 2,
+        "exponent": 14,
+        "value": 268427264,
+        "factorization": "2^13 * 7 * 31 * 151"
+      },
+      {
+        "prime": 61,
+        "exponent": 1,
+        "value": 3720,
+        "factorization": "2^3 * 3 * 5 * 31"
+      },
+      {
+        "prime": 1511,
+        "exponent": 1,
+        "value": 2283120,
+        "factorization": "2^4 * 3^3 * 5 * 7 * 151"
+      }
+    ]
+  },
+  {
+    "n": 4294934528,
+    "factorization": "2^15 * 131071",
+    "phi": 2147450880,
+    "sigma": 8589803520,
+    "sqrt_phi_sigma": 4294901760,
+    "local_factorizations": [
+      {
+        "prime": 2,
+        "exponent": 15,
+        "value": 1073725440,
+        "factorization": "2^14 * 3 * 5 * 17 * 257"
+      },
+      {
+        "prime": 131071,
+        "exponent": 1,
+        "value": 17179607040,
+        "factorization": "2^18 * 3 * 5 * 17 * 257"
+      }
+    ]
+  },
+  {
+    "n": 17512206336,
+    "factorization": "2^12 * 3^2 * 29 * 16381",
+    "phi": 5635768320,
+    "sigma": 52332135180,
+    "sqrt_phi_sigma": 17173578240,
+    "local_factorizations": [
+      {
+        "prime": 2,
+        "exponent": 12,
+        "value": 16775168,
+        "factorization": "2^11 * 8191"
+      },
+      {
+        "prime": 3,
+        "exponent": 2,
+        "value": 78,
+        "factorization": "2 * 3 * 13"
+      },
+      {
+        "prime": 29,
+        "exponent": 1,
+        "value": 840,
+        "factorization": "2^3 * 3 * 5 * 7"
+      },
+      {
+        "prime": 16381,
+        "exponent": 1,
+        "value": 268337160,
+        "factorization": "2^3 * 3^2 * 5 * 7 * 13 * 8191"
+      }
+    ]
+  }
+]
